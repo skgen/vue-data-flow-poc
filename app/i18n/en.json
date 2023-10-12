@@ -1,0 +1,12 @@
+{
+    "component": {
+        "TheHomeView": {
+            "welcome": "Welcome on {appName} !",
+            "getStarted": "Powered by Melkor, get started !"
+        },
+        "TheNotFoundView": {
+            "title": "404 - Not found",
+            "back": "Back home"
+        }
+    }
+}

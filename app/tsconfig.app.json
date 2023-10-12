@@ -1,0 +1,37 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.json",
+    "src/**/*.vue",
+    "i18n/*.json"
+  ],
+  "exclude": [
+    "src/**/__tests__/*",
+    "public"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@i18n/*": [
+        "i18n/*"
+      ],
+      "@style/*": [
+        "src/assets/scss/*"
+      ]
+    },
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+    ]
+  }
+}

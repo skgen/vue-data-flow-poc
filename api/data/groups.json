@@ -1,0 +1,50 @@
+[
+  {
+    "id": "group-0",
+    "name": "Group 1",
+    "location": "Europe - Paris",
+    "users": [
+      {
+        "id": "user-0-0"
+      },
+      {
+        "id": "user-0-1"
+      },
+      {
+        "id": "user-0-2"
+      }
+    ]
+  },
+  {
+    "id": "group-1",
+    "name": "Group 1",
+    "location": "America - NewYork",
+    "users": [
+      {
+        "id": "user-1-0"
+      },
+      {
+        "id": "user-1-1"
+      },
+      {
+        "id": "user-1-2"
+      }
+    ]
+  },
+  {
+    "id": "group-2",
+    "name": "Group 1",
+    "location": "England - London",
+    "users": [
+      {
+        "id": "user-2-0"
+      },
+      {
+        "id": "user-2-1"
+      },
+      {
+        "id": "user-2-2"
+      }
+    ]
+  }
+]
